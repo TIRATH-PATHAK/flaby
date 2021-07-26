@@ -1,0 +1,529 @@
+/* GLOBAL CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Raleway:wght@500&family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    
+    
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+.container{
+    max-width:  1600px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;   
+}
+
+li{
+    text-transform: uppercase;
+}
+
+h3,h4{
+    text-transform: uppercase;
+   
+    /* width: 0; */
+}
+
+
+.head{
+    background-image: url('../assests/images/bg.png');
+    background-size: 100%;
+}
+
+.head .main{
+    float: left;
+
+    
+}
+
+.head .main .logo{
+    margin-top: 53px;
+   
+}
+
+.main .logo img{
+    margin-left: 17px;
+}
+
+.head .logo .navbar{
+    width: 100%;
+    
+}
+
+.head .main .navbar ul{
+    list-style-type: none;
+    margin-top: 9%;
+    margin-left: 25%;
+    width: 700px;
+    
+    
+}
+
+.head .main ul li{
+    display: inline-block;  
+    padding: 2%;
+}
+
+.top{
+    /* float: left; */
+    width: 503px;
+    margin-left: 0%;
+    margin-top: 20%;
+    
+    
+
+}
+
+.pencil{
+    background: url('../assests/images/back.png');
+    background-size: cover;
+}
+
+
+.middle .pencil .top{
+    float: left;
+}
+
+.middle .pencil .middle{
+    text-align: center;
+    
+}
+
+.middle .pencil .middle{
+    
+    
+    width: 45%;
+    color: white;
+}
+
+.middle .pencil .middle h3{
+    font-size: 40px;
+    margin-left: -22%;
+    width: 500px;
+}
+
+.middle .pencil .middle p{
+    
+    text-align: justify; 
+    font-size: 26px;
+    width: 400px;
+    margin-bottom: 15%;
+
+}
+
+
+
+.middle .pencil_img img{
+    margin-top: -5%;
+    margin-right: 50%;
+    
+
+}
+
+.middle .last{
+    float: left;
+    width: 70%;
+    /* margin-left: 28%; */
+    
+}
+
+
+.middle .last_last img{
+    width: 15%;
+    margin-right: 0%;
+    margin-top: -1%;
+}
+
+.middle .last_last button{
+    padding: 4.7%;
+}
+
+
+
+.middle .last_last_last .last_learn{
+    width: 300px;
+    margin-top: 4.5%;
+}
+
+.middle .last_last_last button{
+    padding: 3.5%;
+    margin-bottom: 5%;
+    background: transparent;
+    color: white;
+    border: 1px solid white;    
+}
+
+
+
+
+.middle .second img{
+    margin: 0;
+    width: 40%;
+}
+
+
+
+.second .mobile_img{
+    float: left;
+   
+  
+}
+
+.second .mobile_img img{
+    width: 390px;
+    
+    margin-bottom: 5%;
+    margin-top: 210px;
+    
+}
+
+.second .earphones img{
+    width: 10%;
+    margin-top: 45%;
+    margin-left: 7%;
+}
+
+
+
+/* Services Section */
+
+
+.services{
+    margin-bottom: 12%;
+}
+
+
+.services .title .head_top{
+    text-align: center;
+    font-family: RobotoSlab, sans-serif;
+}
+
+.services .title .head_top h3{
+    font-size: 24px;
+    
+}
+
+.services .head_top h5{
+    font-size: 18px;
+}
+
+.services .main .services_tab{
+    width: 25%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding-left: 5%;
+}
+
+.services .main .services_tab p,h5{
+    text-align: center;
+    margin-top: 5%;
+    
+
+}
+
+.services .main .services_tab img{
+   
+   display: block;
+   margin: 0 auto;
+}
+
+
+
+/* Blog Section */
+
+
+.blog{
+    box-shadow: 0px 1px 10px 0px black;
+    padding: 1%;
+}
+
+
+.blog .left .images{
+   float: left;
+    width: 600px;
+    margin-right: 6%;
+    
+}
+
+.blog .left .image1{
+    margin-top: -25%;
+    
+}
+
+.blog .left .image2{
+    position: relative;
+    left: 59%;
+    
+    width: 270px;
+    top: 360px;
+}
+
+
+.blog .right .title{
+    padding-top: 21%;
+    width: 100%;
+   margin-left: 0%;
+   margin-bottom: 20%;
+}
+
+
+.blog .right .title h4{
+    font-size: 22px;
+        
+}
+
+.blog .right .title h3{
+    font-size: 32px;
+    margin-left: 0%;
+}
+
+.blog .right .title p{
+    font-size: 20px;
+}
+
+.blog .right .title button{
+    border-radius: 70px;
+    margin-top: 2%;
+}
+
+
+/* Our latest services */
+
+.latest_services{
+    width: 100%;
+    margin-top: 15%;
+}
+
+.latest_services .title_services .ls{
+    text-align: center;
+
+}
+
+
+.hr{
+    width: 3%;
+    margin-bottom: 5%;
+}
+
+
+.sec_main{
+    margin-left: 17%;
+
+}
+
+.sec_top{
+    margin-bottom: 5%;
+}
+
+.sec_top .sec_tops{
+    width: 30%;
+    display: inline-block;
+}
+
+.sec_top .sec_tops p{
+    width: 70%;    
+    
+}
+
+
+.sec_bottom .sec_bottoms{
+    width: 30%;
+    display: inline-block;
+}
+
+
+.sec_bottom .sec_bottoms p{
+    width: 70%;
+
+}
+
+
+/* Know About Section */
+
+.know{
+    margin-top: 15%;
+    text-align: center;
+    background: url('../assests/images/bg1.png');
+    padding: 1%;
+}
+
+.know .about_title_body{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.know .about_all{
+    box-shadow: 0px 1px 10px 0px black;
+    background-color: white;
+    padding: 2%;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.image_author{
+    position: relative;
+    top: -5px;
+    bottom: 0px;
+}
+
+
+.know .name_author{
+    margin-top: -15%;
+}
+
+.know .name_author h4{
+    margin-bottom: 2px;
+}
+
+.know .name_author h5{
+    margin-top: 10px;
+}
+
+
+.know .designation .comment{
+    margin-top: 6%;
+    padding: 2%;
+    text-align: justify;
+}
+
+.prev_next{
+    display: inline-block;
+    width: 9%;
+    margin-top: 2%;
+   
+}
+
+#prev{
+    font-weight: lighter;
+    color: grey;
+}
+
+#next{
+    font-weight: bold;
+}
+
+/* Resources Section */
+
+.resources{
+    margin-top: 10%;
+}
+
+.resources .left_side_res{
+    width: 561px;
+    float: left;
+    margin-left: 10%;
+}
+
+.resources .left_side_res h5{
+    margin-right: 308px;
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.resources .left_side_res h4{
+    font-size: 32px;
+    color: #494949;
+}
+
+
+.resources .left_side_res p{
+    width: 70%;
+    text-align: justify;
+}
+
+
+/* Pricing Section */
+
+.pricing{
+    margin-top: 10%;
+}
+
+.pricing .price_ab{
+    text-align: center;
+}
+
+.pricing .price_ab h3{
+    font-size: 24px;
+    color: brown;
+}
+
+.pricing .price_ab h4{
+    font-size: 18px;
+    color: brown;
+}
+
+.pricing_plans{
+    width: 25%;
+    margin-top: 7%;
+    margin-left: 6%;
+    /* background: url('../assests/images/pricing_bg.png');
+    background-size: cover;
+     */
+     background: url('../assests/images/design.png');
+  
+    display: inline-block;
+    padding: 3%;
+    border-radius: 5%;
+    box-shadow: 0px 1px 10px 0px black;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.pricing_plans:hover{
+    opacity: 1;
+}
+
+
+.pricing_plans img, button{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.pricing_plans h5,h3 ,p{
+    text-align: center;
+    
+}
+
+.pricing_plans h5{
+    font-size: 18px;
+}
+
+.pricing_plans h3{
+    text-transform: lowercase;
+    font-size: 60px;
+}
+
+.pricing_plans button{
+    border-radius: 40px;
+    padding: 4%;
+    padding-left: 9%;
+    padding-right: 9%;
+    background-color: #2eb0ec;
+    border: 1px solid white;
+    color: white;
+    
+    text-align: center;
+}
+
+sup,sub{
+    font-size: 22px;
+}
